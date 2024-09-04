@@ -1,0 +1,30 @@
+[0m09:32:41.848226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D0D682E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D384BF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D384B130>]}
+
+
+============================== 09:32:41.852332 | fbc079c6-a717-4414-bc0f-53f67c3b4cf2 ==============================
+[0m09:32:41.852332 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:32:41.853393 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\admin\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init redshift_project', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:32:41.881304 [debug] [MainThread]: Starter project path: C:\Users\admin\.conda\envs\redshift-env\lib\site-packages\dbt\include\starter_project
+[0m09:32:41.941994 [info ] [MainThread]: 
+Your new dbt project "redshift_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:32:41.943505 [info ] [MainThread]: Setting up your profile.
+[0m09:33:15.872822 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m09:33:15.873901 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m09:53:12.224436 [info ] [MainThread]: Profile redshift_project written to C:\Users\admin\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:53:12.227081 [debug] [MainThread]: Command `dbt init` succeeded at 09:53:12.226036 after 1230.48 seconds
+[0m09:53:12.228083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D0D682E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D174FB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155D3839730>]}
+[0m09:53:12.228625 [debug] [MainThread]: Flushing usage events
